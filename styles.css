@@ -1,0 +1,58 @@
+corpo {
+    cor : branco;
+    fundo : preto;
+    margem :  0 px ;
+    família de fontes :  "Chakra Petch" , sem serifa;
+    margem inferior :  100 px ;
+}
+
+cabeçalho {
+    borda inferior : sólido 2 px  rgb ( 42 ,  122 ,  228 );
+    preenchimento :  20 px ;
+    tamanho da fonte :  32 px ;
+    cor :  rgb ( 42 ,  122 ,  228 );
+}
+. chamada {
+    fundo :  rgb ( 184 ,  156 ,  213 );
+    preenchimento inferior :  80 px ;
+    preenchimento-superior :  80 px ;
+    exibição : flex;
+    justificar-conteúdo : centro;
+}
+. chamada-texto {
+    margem direita :  5 % ;
+}
+h1 {
+    tamanho da fonte :  40 px ;
+}
+p {
+    tamanho da fonte :  20 px ;
+}
+
+imagem {
+    altura :  200 px ;
+}
+
+. categoria-vídeos {
+    exibição : flex;
+    estouro-x : automático;
+    lacuna :  10 px ;
+}
+. categoria {
+    preenchimento-esquerdo :  20 px ;
+    preenchimento-direito :  20 px ;
+    margem superior :  50 px ;
+}
+
+. categoria-vídeos  img {
+    opacidade :  0,5 ;
+    altura :  200 px ;
+}
+
+. categoria-videos  img : hover {
+    opacidade :  1,0 ;
+    borda :  3 px verde sólido;
+}
+
+. categoria  h2 {
+    cor :  rgb ( 42 ,  122 ,  228 );
