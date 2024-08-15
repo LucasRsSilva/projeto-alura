@@ -1,58 +1,60 @@
-corpo {
-    cor : branco;
-    fundo : preto;
-    margem :  0 px ;
-    família de fontes :  "Chakra Petch" , sem serifa;
-    margem inferior :  100 px ;
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
 }
 
-cabeçalho {
-    borda inferior : sólido 2 px  rgb ( 42 ,  122 ,  228 );
-    preenchimento :  20 px ;
-    tamanho da fonte :  32 px ;
-    cor :  rgb ( 42 ,  122 ,  228 );
+header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
 }
-. chamada {
-    fundo :  rgb ( 184 ,  156 ,  213 );
-    preenchimento inferior :  80 px ;
-    preenchimento-superior :  80 px ;
-    exibição : flex;
-    justificar-conteúdo : centro;
+
+.chamada {
+    background: rgb(184, 156, 213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
 }
-. chamada-texto {
-    margem direita :  5 % ;
+
+.chamada-texto {
+    margin-right: 5%;
 }
+
 h1 {
-    tamanho da fonte :  40 px ;
+    font-size: 40px;
 }
+
 p {
-    tamanho da fonte :  20 px ;
+    font-size: 20px;
 }
 
-imagem {
-    altura :  200 px ;
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
 
-. categoria-vídeos {
-    exibição : flex;
-    estouro-x : automático;
-    lacuna :  10 px ;
-}
-. categoria {
-    preenchimento-esquerdo :  20 px ;
-    preenchimento-direito :  20 px ;
-    margem superior :  50 px ;
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
 }
 
-. categoria-vídeos  img {
-    opacidade :  0,5 ;
-    altura :  200 px ;
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
 }
 
-. categoria-videos  img : hover {
-    opacidade :  1,0 ;
-    borda :  3 px verde sólido;
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid green;
 }
 
-. categoria  h2 {
-    cor :  rgb ( 42 ,  122 ,  228 );
+.categoria h2 {
+    color: rgb(42, 122, 228);
+}
